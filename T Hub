@@ -8,11 +8,7 @@ local Section = Tab:NewSection("BGSI SCRIPTS")
 
 
 Section:NewButton("AutoFarm Script", "Autofarm", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vax3478/Vax/refs/heads/main/BGSIAUTOFARMHUBKEYLESS"))()
-
-end)
-
-Section:NewButton("Dupe Script", "Dupe Pets", function()
 loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vax3478/Vax/refs/heads/main/BGSIAUTOFARMHUBKEYLESS"))()
 
 end)
