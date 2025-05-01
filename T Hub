@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Toman Hub", "GrapeTheme")
+
+local Tab = Window:NewTab("BGSI")
+local Section = Tab:NewSection("BGSI SCRIPTS")
+
+
+
+
+Section:NewButton("AutoFarm Script", "Autofarm", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vax3478/Vax/refs/heads/main/BGSIAUTOFARMHUBKEYLESS"))()
+
+end)
+
+Section:NewButton("Dupe Script", "Dupe Pets", function()
+loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+
+end)
