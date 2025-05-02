@@ -1,14 +1,42 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Toman Hub", "GrapeTheme")
 
-local Tab = Window:NewTab("BGSI")
-local Section = Tab:NewSection("BGSI SCRIPTS")
+local Tab = Window:NewTab("BGSI KEYLESS")
+local Section = Tab:NewSection("BGSI AUTOFARM SCRIPT")
 
-
-
-
-Section:NewButton("AutoFarm Script", "Autofarm", function()
+Section:NewButton("Idiot hub (keyless)", "Autofarm", function()
 loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vax3478/Vax/refs/heads/main/BGSIAUTOFARMHUBKEYLESS"))()
 
+end)
+
+Section:NewButton("Sigma Hub (keyless)", "Autofarm", function()
+loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Bubble-Gum-Simulator-INFINITY-SigmaHUB-OP-Solara-Support-Auto-Farm-Unlock-Gamepas-and-MORE-35725"))()
+
+end)
+
+Section:NewButton("Speed Hub (keyless)", "Autofarm", function()
+loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Bgsi-Speed-Hub-X-Keyless-37703"))()
+end)
+
+
+
+local Tab = Window:NewTab("BGSI NEED KEY")
+local Section = Tab:NewSection("BGSI AUTOFARM SCRIPT")
+
+Section:NewButton("One Hub (need key)", "Autofarm", function()
+loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Bubble-Gum-Simulator-INFINITY-0ne-Hub-35239"))()
+end)
+
+Section:NewButton("Steriliza (need key)", "Autofarm", function()
+loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0vma/Strelizia/refs/heads/main/Loader.lua', true))()
+end)
+
+Section:NewButton("Aze Script (need key)", "Autofarm", function()
+loadstring(game:HttpGet("http://vpaste.net/PZtNq"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Aze-Script-35792"))()
 end)
